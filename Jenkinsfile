@@ -6,6 +6,7 @@ pipeline{
         stage("Code clone"){
             steps{
                 sh "whoami"
+                echo "webhook"
             clone("https://github.com/LondheShubham153/django-notes-app.git","main")
             }
         }
