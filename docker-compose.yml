@@ -4,7 +4,8 @@ services:
   nginx:
     build: ./nginx
     image: nginx:latest
-    container_name: "nginx_cont"
+    
+<!---webhook--->    container_name: "nginx_cont"
     ports:
       - "80:80"
     restart: always
